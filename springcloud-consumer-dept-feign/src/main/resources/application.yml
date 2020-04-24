@@ -1,0 +1,9 @@
+spring:
+  application:
+    name: feign_Client
+eureka:
+  instance:
+    hostname: feign_Client
+  client:
+    fetch-registry: false
+    register-with-eureka: false

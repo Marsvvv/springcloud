@@ -1,0 +1,9 @@
+server:
+  port: 80
+
+eureka:
+  client:
+    register-with-eureka: false
+    fetch-registry: true # 必须为true,允许在注册中心检索服务
+    service-url:
+      defaultZone: http://localhost:7001/eureka/,http://localhost:7002/eureka/,http://localhost:7003/eureka/
